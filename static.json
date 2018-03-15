@@ -1,0 +1,4 @@
+---
+vim: filetype=liquid
+---
+{{ site.static_files | jsonify }}
